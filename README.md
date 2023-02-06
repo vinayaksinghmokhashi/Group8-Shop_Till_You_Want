@@ -14,6 +14,7 @@
 ### Flow Diagram
 A diagrammatic representation of  flow and essential part of planning the system.
 
+![shop](https://user-images.githubusercontent.com/98843684/217034073-c79f34fa-0cd5-4828-9223-f64c4842bc8e.jpg)
 
 
 

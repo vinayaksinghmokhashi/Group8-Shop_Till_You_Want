@@ -16,6 +16,9 @@ A diagrammatic representation of  flow and essential part of planning the system
 
 ![shop](https://user-images.githubusercontent.com/98843684/217034073-c79f34fa-0cd5-4828-9223-f64c4842bc8e.jpg)
 
+### Developement Server
+ Run command 'ng serve' for a dev server. Then navigate to http://localhost:4200. The app  automatically reload if you edit any of the source files.
+
 
 
 ### Contributors List :

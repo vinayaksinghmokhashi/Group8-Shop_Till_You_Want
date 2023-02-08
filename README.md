@@ -34,3 +34,8 @@ A diagrammatic representation of  flow and essential part of planning the system
 |06 | Vinayaksingh Mokhashi |
 
 worked on add to cart functionality  and and view product functionality till now we are able to add the product to cart and while adding to cart we can also view the product details
+
+As of now Firstly I worked on Login and register backend part after that I worked on products categories page that how we can see our products by different-different categories like mobile,fashion,home-furnishing products. 
+I also worked on user name page to navbar that how to use particular user name to navbar.
+I worked on orders page also in that orders can be seen by different-different users to their particular products ordered.
+Currently I am working on Admin Navbar.

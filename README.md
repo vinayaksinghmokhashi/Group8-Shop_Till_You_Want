@@ -33,3 +33,4 @@ A diagrammatic representation of  flow and essential part of planning the system
 |05| Tarun Kumar Saraswat|
 |06 | Vinayaksingh Mokhashi |
 
+worked on add to cart functionality  and and view product functionality till now we are able to add the product to cart and while adding to cart we can also view the product details

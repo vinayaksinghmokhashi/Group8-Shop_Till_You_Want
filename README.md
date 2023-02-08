@@ -8,7 +8,7 @@
 #### • User can browse online shops, compare prices and order merchandise sitting at home on their PC.
 #### • To achieve this we used Java Full Stack to develop an ecommerce like our existing system SHOP FOR HOME.
 #### • We used angular for developing the frontend part and java spring boot for backend and to store the data we used postgreSQL.
-
+###  • We have also used MojoAuth for Implementing Authentication through mail service (OTP/ Link).
 ![images (1)](https://user-images.githubusercontent.com/98843684/216047627-2626b0a6-54a0-42fc-8801-c3692e8526eb.jpg)
 
 ### Flow Diagram
@@ -29,7 +29,6 @@ A diagrammatic representation of  flow and essential part of planning the system
 |02 | Jai Singhal |
 |03 | Srinivas Reddy |
 |04 | Onkar Biyani |
-| 05| Tarun Kumar Saraswat|
+|05| Tarun Kumar Saraswat|
 |06 | Vinayaksingh Mokhashi |
 
-c

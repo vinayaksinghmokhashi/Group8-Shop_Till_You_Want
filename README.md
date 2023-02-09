@@ -45,4 +45,5 @@ worked on add to cart functionality  and and view product functionality till now
 * Worked on buy Now option to redirect to checkout page with the required functionalities .
 * Also worked on wishlist page when the user clicks on wishlist icon the particular item is added to wishlist page and respective call is made through spring boot
 * Currently Implementing some functionalities of admin page .
-* worked on Admin page For stocks management and integration of google authentication with jai
+* completed add product functionality
+

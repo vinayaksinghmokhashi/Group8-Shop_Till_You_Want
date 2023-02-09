@@ -41,3 +41,7 @@ worked on add to cart functionality  and and view product functionality till now
 #### • I worked on orders page also in that orders can be seen by different-different users to their particular products ordered.
 #### • Currently I am working on Admin Navbar.
 #### . Currently Working On Donate Option.
+
+* Worked on buy Now option to redirect to checkout page with the required functionalities .
+* Also worked on wishlist page when the user clicks on wishlist icon the particular item is added to wishlist page and respective call is made through spring boot
+* Currently Implementing some functionalities of admin page .

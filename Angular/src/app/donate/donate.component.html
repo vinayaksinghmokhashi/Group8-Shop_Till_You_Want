@@ -1,0 +1,74 @@
+<div class="container" style="width:500px;height:auto;border-radius: 7px;">
+    <h2 style="padding: 10px; text-align: center;">Donate Form</h2>
+    <form novalidate #dform="ngForm">
+        <fieldset>
+            <div class="form-group"style="margin:0px;">
+                <label for="exampleInputEmail1" class="form-label mt-4" >Name</label>
+                <input type="text" class="form-control" id="exampleTextarea" aria-describedby="emailHelp" placeholder="Enter Your Name"
+                name="dName"  [(ngModel)]="donar.dName" required #dname="ngModel">
+              </div>
+
+              <div *ngIf="dname.errors?.['required'] && dname.touched" style="color:red"> Please Enter Data in Name Feild</div>
+
+          <div class="form-group" style="margin:0px;">
+            <label for="exampleInputEmail1" class="form-label mt-4">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email"
+            name="emailId" [(ngModel)]="donar.emailId" required #emailId="ngModel">
+            <small id="emailHelp" class="form-text text-muted">Please provide email Which is in use, We'll never share your email with anyone else.</small>
+          </div>
+          <div *ngIf="emailId.errors?.['required'] && emailId.touched" style="color:red"> Please Enter Data in Email Feild</div>
+
+          <div class="form-group" style="margin:0px;">
+            <label for="exampleInputPassword1" class="form-label mt-4">Phone_Number</label>
+            <input type="number" class="form-control" id="exampleInputPassword1" placeholder="Phone_Number"
+            name="dId"  [(ngModel)]="donar.dId" required #phno="ngModel">
+          </div>
+          <div *ngIf="phno.errors?.['required'] && phno.touched" style="color:red"> Please Enter the Phone_Number</div>
+
+
+          <div class="form-group" style="margin:0px;">
+            <label for="exampleSelect1" class="form-label mt-4">Gender</label>
+            <select class="form-select" id="exampleSelect1" name="gender"  [(ngModel)]="donar.gender" required #gender="ngModel">
+                <option value="">Select Gender</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Other">Other</option>
+            </select>
+          </div>
+          <div *ngIf="gender.errors?.['required'] && gender.touched" style="color:red"> Please Select the Gender</div>
+
+
+          <div class="form-group" style="margin:0px;">
+            <label for="exampleSelect1" class="form-label mt-4">Item Type</label>
+            <select class="form-select" id="exampleSelect1"  name="country"  [(ngModel)]="donar.item" required #item="ngModel">
+              <option value="">Select Item Type</option>
+              <option>Clothes</option>
+              <option>Home Accessories</option>
+              <option>Electronics</option>
+              <option>Books</option>
+              <option>FoodItems</option>
+            </select>
+          </div>    
+          <div *ngIf="item.errors?.['required'] && item.touched" style="color:red">  Please Select the item type</div>
+
+          <div class="form-group" style="margin:0px;">
+            <label for="exampleTextarea" class="form-label mt-4"> Address</label>
+            <textarea class="form-control" id="exampleTextarea" name="address"  [(ngModel)]="donar.address" required #address="ngModel"></textarea>
+          </div>
+          <div *ngIf="address.errors?.['required'] && address.touched" style="color:red"> Please Give your Address in Addredd_Feild</div>
+          <div class="form-group" style="margin:0px;">
+            <label for="formFile" class="form-label mt-4">Choose Image Of Product</label>
+            <input class="form-control" type="file" id="formFile" name="image"  [(ngModel)]="donar.imagePath">
+          </div>
+         
+        </fieldset>
+      </form>
+      <br> 
+      <button type="button" (click)="registerEmployee()" class="btn btn-success" style="margin-bottom: 10px;" [disabled]="!dform.valid">Submit</button>
+</div>  
+
+<!-- Modal footer -->
+<!-- <div class="modal-footer"> --> <br/>
+  
+<!-- </div> -->
+<app-footer></app-footer>

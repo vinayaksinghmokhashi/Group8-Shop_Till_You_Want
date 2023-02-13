@@ -1,0 +1,56 @@
+<h3 class="display-4 mb-5 ml-3 text-align-left font-weight-bold">Users</h3>
+
+<section class="h-100 h-custom">
+    <!-- <div class="search-div mt-0">
+        <input class="search-input" placeholder="Search Products for You!"  type = "text" name="search" [(ngModel)]="searchText">
+        <button class="search-button" (click)="search()">Search</button>
+        </div> -->
+    <div class="h-100 container py-5"> 
+      <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col">
+
+          <div class="table-responsive">
+            <table class="table">
+              <thead>
+                <tr>
+                    <th scope="col">User Id</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Role</th>
+                    <th scope="col">Mobile</th>
+                    
+                </tr>
+              </thead>
+              <tbody>
+                <tr *ngFor="let user of users">
+                  <th scope="row">
+                    <div class="d-flex align-items-center">
+                      <div class="flex-column ms-4">
+                        <a>
+                            <p class="mb-0 ml-2" style="font-size: 14px;">{{user.id}}</p>
+                        </a>
+                      </div>
+                    </div>
+                  </th>
+                  <td class="align-middle">
+                    <p class="mb-0" style="font-weight: 100; font-size: 14px"> {{user.email}}</p>
+                  </td>
+                  <td class="align-middle">
+                    <p class="mb-0" style="font-weight: 100; font-size: 14px"> {{user.name}}</p>
+                  </td>
+                  <td class="align-middle">
+                    <p class="mb-0" style="font-weight: 100; font-size: 14px;">{{user.role}}</p>
+                  </td>
+                  <td class="align-middle">
+                    <p class="mb-0" style="font-weight: 100; font-size: 14px;">{{user.phone}}</p>
+                  </td>
+                 
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <app-footer></app-footer>

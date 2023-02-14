@@ -102,10 +102,7 @@ import { DelieveyDatePipe } from './delievey-date.pipe';
       useValue: {
         autoLogin: true,
         providers: [
-          {
-            id: GoogleLoginProvider.PROVIDER_ID,
-            provider: new GoogleLoginProvider('167363465362-15uovkj92leduh5hmpr177end551s8du.apps.googleusercontent.com')
-          }
+         
         ]
       } as SocialAuthServiceConfig
     }

@@ -19,7 +19,7 @@ public class EmailSenderDao implements EmailSenderService {
 	public void sendEmail(String to, String subject, String message) {
 
 		SimpleMailMessage smm=new SimpleMailMessage();
-		smm.setFrom("singhaljai1308@gmail.com");
+		
 		smm.setTo(to);
 		smm.setSubject(subject);
 		smm.setText(message);

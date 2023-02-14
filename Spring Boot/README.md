@@ -1,5 +1,5 @@
 
-### Individual contribution in sping boot
+### Individual contribution in spring boot
 
 |SL No| Name  |Contribution|
 |------|------|-----------|

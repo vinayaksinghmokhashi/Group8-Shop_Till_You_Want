@@ -1,5 +1,5 @@
 
-### Individuak contribution in front-end design
+### Individual contribution in front-end design
 
 |SL No| Name  |Contribution|
 |------|------|-----------|

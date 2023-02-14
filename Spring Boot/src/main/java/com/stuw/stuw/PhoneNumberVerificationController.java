@@ -23,8 +23,7 @@ import lombok.extern.slf4j.Slf4j;
 public class PhoneNumberVerificationController {
 	 @GetMapping(value = "/generateOTP/{mobile}")
 	    public ResponseEntity<String> generateOTP(@PathVariable("mobile") String mobile){
-	        String TWILIO_ACCOUNT_SID="ACa299cd328e411b5573e48d340f28a99f";
-	        String TWILIO_AUTH_TOKEN="fe7226b87d2e63e4a879ecdf0842e1d2";
+	       
 	        Twilio.init((TWILIO_ACCOUNT_SID), (TWILIO_AUTH_TOKEN));
 
 	        Verification verification = Verification.creator(

@@ -36,7 +36,7 @@ A diagrammatic representation of  flow and essential part of planning the system
 |05| Tarun Kumar Saraswat|
 |06 | Vinayaksingh Mokhashi |
 
-worked on add to cart functionality  and and view product functionality till now we are able to add the product to cart and while adding to cart we can also view the product details
+#### Worked on add to cart functionality  and and view product functionality till now we are able to add the product to cart and while adding to cart we can also view #### the product details
 
 #### • As of now Firstly I worked on Login and register backend part.
 #### • After that I worked on products categories page that how we can see our products by different-different categories like mobile,fashion,home-furnishing products. 

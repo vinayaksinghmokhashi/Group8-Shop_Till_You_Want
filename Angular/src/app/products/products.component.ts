@@ -22,15 +22,11 @@ constructor(private productService:ProductService,private route:ActivatedRoute){
 }
 ngOnInit(): void {
   this.productService.getAllProducts().subscribe((data: any) => { this.products = data; });
-  
- 
   //console.log(this.products.productId);
-
   // this.querySub = this.route.queryParams.subscribe(() => {
   //   this.update();
   // });
   // this.paramSub = this.route.params.subscribe(() => {
-  //   this.update();
   // });
 }
 viewProduct(prodId:any){
